@@ -42,6 +42,9 @@
         <!-- Keep up to 7 days of permission usage history -->
         <item>privacy/discrete_history_cutoff_millis=604800000</item>
 
+        <!-- Use new privacy indicators for location -->
+        <item>privacy/location_indicators_enabled=true</item>
+
         <!--
             Keep track of more app ops for privacy dashboard display.
             From AppOpsManager.RUNTIME_AND_APPOP_PERMISSIONS_OPS:
